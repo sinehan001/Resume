@@ -188,6 +188,7 @@ html{
 {
   color: white;
   background-color: #22303c;
+}
 
 .resume-title::after {
     content: "";
