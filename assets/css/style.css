@@ -184,6 +184,11 @@ html{
   padding: 30px;
 }
 
+.resume
+{
+  color: white;
+  background-color: #22303c;
+
 .resume-title::after {
     content: "";
     position: relative;
