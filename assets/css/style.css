@@ -151,7 +151,37 @@ html{
 
 .resume-item
 {
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
+}
+
+.article-list
+{
+  background-color: #495057;
+  color: white;
+}
+
+.article-title::after{
+  content: "";
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: white;
+  border-radius: 15px;
+  bottom: 0;
+  left: calc(50% - 60px);
+}
+
+.grid-container
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+}
+
+.grid-container p 
+{
+  padding: 30px;
 }
 
 .resume-title::after {
@@ -206,5 +236,33 @@ html{
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 800px)
+{
+  .grid-container
+  {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 370px)
+{
+  .grid-container img
+  {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 300px)
+{
+  .grid-container img
+  {
+    width: 120px;
+  }
+  .grid-container p 
+  {
+    padding: 10px;
   }
 }
