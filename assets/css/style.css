@@ -226,6 +226,22 @@ html{
     left: calc(50% - 70px);
 }
 
+.check
+{
+  border-radius: 25px;
+  height: 50px;
+  border: 2px solid red;
+  background-color: transparent;
+  color: white;
+  padding: 5px 20px;
+}
+
+.check:hover 
+{
+  background-color: red;
+  transition: 0.4s ease-out;
+}
+
 .container-about::after{
     content: "";
     position: relative;
