@@ -111,6 +111,23 @@
                     a new Web Development project for Hackathon Contest. </p>
                     <br />
                     <a href="https://drive.google.com/file/d/10W-tenXJaUurdqYLX3Vfdl8xFsksOrpT/view?usp=sharing" target="_blank"><button class="check">Download CV</button></a>
+                    <button class="arrow fa fa-chevron-up" id="chng" onclick="chng()" data-inline="true"></button>
+                    <br />
+                    <br />
+                    <div class="main" id="main">
+                        <div>
+                            <h2>FileName</h2>
+                            <p style="word-break: break-all;">Sinehan_resume_220208_185308</p>
+                        </div>
+                        <div>
+                            <h2>FileSize</h2>
+                            <p>169 KB</p>
+                        </div>                        
+                        <div>
+                            <h2>FileType</h2>
+                            <p>PDF</p>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>
@@ -285,5 +302,14 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js?h=50e8a909c83245c452b68b7ff2dc1693"></script>
+    <script>
+        function chng()
+        {
+            var a = document.getElementById("chng");
+            a.classList.toggle("fa-chevron-down");
+            var b = document.getElementById("main");
+            b.classList.toggle("main-display");
+        }
+    </script>
 </body>
 </html>
