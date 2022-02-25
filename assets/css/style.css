@@ -253,8 +253,8 @@ html{
   border-left: 0px !important;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 0px;
   padding: 16.6px 20px 16.6px 15px;
+  margin-left: -10px;
 }
 
 .main
