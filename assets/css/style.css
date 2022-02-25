@@ -238,23 +238,15 @@ html{
   padding: 5px 20px;
 }
 
-.check:hover,.arrow:hover
+.check:hover
 {
   background-color: red;
   transition: 0.4s ease-out;
 }
 
-.arrow
+.arrow:hover
 {
-  background-color: transparent;
-  color: white;
-  height: 50px;
-  border: 2px solid red !important;
-  border-left: 0px !important;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  padding: 16.6px 20px 16.6px 15px;
-  margin-left: -10px;
+  color: red;
 }
 
 .main
