@@ -111,7 +111,7 @@
                     a new Web Development project for Hackathon Contest. </p>
                     <br />
                     <a href="https://drive.google.com/file/d/10W-tenXJaUurdqYLX3Vfdl8xFsksOrpT/view?usp=sharing" target="_blank"><button class="check">Download CV</button></a>
-                    <button class="arrow fa fa-chevron-up" id="chng" onclick="chng()" data-inline="true"></button>
+                    <i class="arrow fa fa-info-circle" aria-hidden="true" onclick="chng()" style="font-size: 28px; padding-left: 5px;"></i>
                     <br />
                     <br />
                     <div class="main" id="main">
@@ -305,10 +305,8 @@
     <script>
         function chng()
         {
-            var a = document.getElementById("chng");
-            a.classList.toggle("fa-chevron-down");
-            var b = document.getElementById("main");
-            b.classList.toggle("main-display");
+            var a = document.getElementById("main");
+            a.classList.toggle("main-display");
         }
     </script>
 </body>
