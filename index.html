@@ -55,7 +55,7 @@
 }
 </style>
 </head>
-<body>
+<body class="body">
     <header class="justify-content-center align-items-center align-content-center align-self-center header-blue">
         <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
             <div class="container-fluid">
@@ -315,15 +315,7 @@
   cursorChar: '|',
   autoInsertCss: true,
 });
-            ScrollReveal().reveal('.headline',{delay : 1000});
-	  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+   ScrollReveal().reveal('.body',{delay : 1000,reset: true});
 </script>
     <script>
         function chng()
